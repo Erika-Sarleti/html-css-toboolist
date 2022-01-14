@@ -30,6 +30,7 @@ main{
     width: 100%;
     background-color: #f6f8f9;
     padding: 30px;
+    color: #444851;
 }
 .buttons{
     margin: 0 auto;
@@ -71,22 +72,36 @@ section{
     padding: 2% 4%;
     font-weight: bold;
 }
+
+.section-header{
+    margin-bottom: 5px;
+}
 .list{
     padding-left: 10px;
     list-style-type: none;
-   
 }
-.checkbox.green{
-    font-size: 0.75em;
-    color: green;
-    border: 2px solid green;
+li{
+    margin-bottom: 10px;
+}
+.checkbox{
     border-radius: 50%;
     height: 5px;
     width: 5px;
     padding: 0 3px;
 }
+.checkbox.green{
+    font-size: 0.75em;
+    color: green;
+    border: 2px solid green;
+}
+
+.checkbox.red{
+    font-size: 0.75em;
+    color: RED;
+    border: 2px solid RED;
+}
 .tag{
-    background-color: skyblue;
+    background-color: #45abea;
     border-radius: 7px;
     font-size: 10px;
     padding: 3px 6px;
@@ -95,4 +110,14 @@ section{
 
 li>span {
     vertical-align: middle;
+}
+
+.purple{
+    background-color: #9c72e4;
+}
+.green{
+    background-color: #64c0a9;
+}
+.orange{
+    background-color: #f29e33;
 }
