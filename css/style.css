@@ -89,13 +89,13 @@ li{
     width: 5px;
     padding: 0 3px;
 }
-.checkbox.green{
+.checkbox.yes{
     font-size: 0.75em;
     color: green;
     border: 2px solid green;
 }
 
-.checkbox.red{
+.checkbox.no{
     font-size: 0.75em;
     color: RED;
     border: 2px solid RED;
@@ -120,4 +120,10 @@ li>span {
 }
 .orange{
     background-color: #f29e33;
+}
+.pink{
+    background-color: #d863a1;
+}
+.lime{
+    background-color: #b0c926;
 }
