@@ -3,23 +3,71 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
 header{
     width: 100%;
+    margin-bottom: 20px;
     
 }
 .logo-image{
     margin: 15px 0 15px 30px;
+    vertical-align: middle;
 }
 
 .logo-name{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: 2rem;
     display: inline-block;
     line-height: 50px;
+    vertical-align: middle;
+    
    
 }
 main{
     width: 100%;
     background-color: #f6f8f9;
+    padding: 30px;
 }
+.buttons{
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+    padding: 1% 4%;
+    border-bottom: 2px solid #f6f8f9;
+}
+
+.button{
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid ;
+}
+a{
+    text-decoration: none;
+    
+}
+a:visited.task{
+    color: white;
+}
+a:visited.section{
+    color: #c8cdd2;
+}
+.add-task{
+    background-color: #47adf1;
+    color:white;
+}
+.add-section{
+    color: #c8cdd2;
+    border-color: #c5cbd0;
+    background-color: white;
+
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2% 4%;
+}
+.
