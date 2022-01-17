@@ -9,19 +9,21 @@ html{
 }
 header{
     width: 100%;
-    margin-bottom: 20px;
+    padding: 10px 0 15px 30px;
     
 }
 .logo-image{
-    margin: 15px 0 15px 30px;
+    
     vertical-align: middle;
+    line-height: 1;
+    padding-top: 5px;
 }
 
 .logo-name{
     font-weight: bolder;
     font-size: 2rem;
     display: inline-block;
-    line-height: 50px;
+    line-height: 1;
     vertical-align: middle;
     
    
